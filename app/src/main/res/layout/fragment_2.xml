@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment2color"
+    tools:context=".Fragment2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="Data Passing By PUT And GET"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/data1txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="150dp"
+        android:text="Data 1 :"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/data2txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data 2 :"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/data1txtview"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/data3txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data 3 :"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/data2txtview"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/activity1btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Activity 1"
+        android:layout_below="@+id/data3txtview"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginHorizontal="20dp"/>
+
+</RelativeLayout>
